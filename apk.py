@@ -118,7 +118,7 @@ rr = random.randint
 for xd in range(3005):
     ff=(f'Mozilla/5.0 Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/{str(rr(1111,9999))}.{str(rr(20,100))}.{str(rr(20,100))} (KHTML, like Gecko) Version/{str(rr(20,100))}.0.{str(rr(1111,9999))} Safari/{str(rr(1111,9999))}.{str(rr(20,100))}.{str(rr(20,100))}')
     uas.append(ff)
-for D-N in range(9993,176281):
+for RDJ in range(9993,176281):
     aa='Mozilla/5.0 (Linux; Android'
     b=random.choice(['6','7','8','9','10','11','12'])
     c='TRT-L53 Build/HUAWEITRT-L53; wv)'
