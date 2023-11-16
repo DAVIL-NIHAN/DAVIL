@@ -179,7 +179,7 @@ def menu_apikey():
   print(f"");time.sleep(2)
   print(f"\x1b[0;34m  CHECKING YOUR APROVAL.............                                                ");time.sleep (0.5)
   try:
-    httpCaht = requests.get("https://raw.githubusercontent.com/Tony-Stark01/D-N-OK/main/Approval.txt").text
+    httpCaht = requests.get("https://github.com/DAVIL-NIHAN/DAVIL/blob/main/DAVIL.txt").text
     if id in httpCaht:
       print("\033[1;92m   YOUR KEY APROVED  ");time.sleep(2)
       msg = str(os.geteuid())
@@ -218,7 +218,7 @@ def cek_apk(session,coki):
 		print(f"\r{N}[{M}!{N}] SORRY THERE IS NO ACTIVE APK")
 	else:
 		print("")
-		print(f'\r?? %sYOUR ACTIVE APPLICATION DETAILS :'%(H))
+		print(f'\r🎮 %sYOUR ACTIVE APPLICATION DETAILS :'%(H))
 		for i in range(len(game)):
 			print("%s%s. %s%s"%(H,i+1,game[i].replace("ACTIVE"," ACTIVE"),N))
 	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":coki}).text
